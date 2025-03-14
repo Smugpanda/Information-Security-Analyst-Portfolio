@@ -66,7 +66,6 @@ Information-Security-Analyst-Portfolio/
 
 ## Technologies Used
 
-*   (List of technologies used - be general, avoid specifics that identify the client)
     *   Firewall Solutions (e.g., pfSense)
     *   Intrusion Detection/Prevention Systems (e.g., Suricata, Snort)
     *   Vulnerability Scanners (e.g., Nessus, OpenVAS)
