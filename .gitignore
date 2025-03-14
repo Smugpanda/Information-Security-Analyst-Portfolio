@@ -1,0 +1,83 @@
+# .gitignore_global
+# This is a global .gitignore file for all repositories on the system.
+# It is recommended to use this file for ignoring files that are not specific to a single repository.
+# This file should be placed in the user's home directory and configured in the global git config.
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Icon must end with two spaces
+Icon??
+
+# Temporary files created by macOS
+*.swp
+*.lock
+*.DS_Store
+__MACOSX
+
+# Compiled code
+*.o
+*.class
+*.pyc
+*.DS_Store
+
+# Packages
+*.jar
+*.war
+*.zip
+*.egg
+
+# Logs and temp files
+*.log
+tmp/
+temp/
+/tmp/*
+*.tmp
+
+# IDE specific files
+.idea/
+.vscode/
+*.iml
+*.workspace
+*.build
+*.netbeans
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Sensitive information (adjust as needed)
+*.env
+config/database.yml
+secrets.yml
+
+#Ignore all .log files in the Logs directory and all subdirectories
+/Logs/**/*.log
+
+# Compiled files
+*.com
+*.exe
+*.dll
+*.DS_Store
+
+# Python virtual environment
+venv/
+env/
+__pycache__/
+*.DS_Store
+
+# NetBeans specific
+nbproject/
+*.DS_Store
+
+# OS generated image thumbnails
+._.DS_Store
+
+# Microsoft Office temporary files
+~$*
+*.DS_Store
